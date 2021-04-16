@@ -37,7 +37,7 @@ typedef enum cube_status{
     CUBE_RX_ERROR,      /**< data recepiton error */
     CUBE_TX_TIMEOUT,    /**< timeout during data transmission */
     CUBE_RX_TIMEOUT,    /**< timeout during data recepiton */
-    CUBE_ERR            /**< CFFS unspecified error, feature not yed implemented */
+    CUBE_ERR            /**< feature not yed implemented */
 }cube_status_t;
 
 #endif//CAN_CUBE_TYPES_H__
